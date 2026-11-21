@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_card"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workbench Project"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtProjAngle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_chip_dark"
+            android:hint="1-Sentence Core Angle"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="VOICE-TO-SCRIPT DUMP"
+            android:textColor="#AAAAAA"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtVoiceScript"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_chip_dark"
+            android:gravity="top|start"
+            android:hint="Tap Voice Dictate or type your raw thoughts..."
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVoiceDictate"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#1B8E3E"
+                android:text="Voice Dictate"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnStructureScriptGemini"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#262626"
+                android:text="15s Hook (AI)"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="PACKAGING (NO-REPEAT CHECK)"
+            android:textColor="#AAAAAA"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtFinalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_chip_dark"
+            android:hint="Final Title (&lt;55 chars)"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtTitleCharWarn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/edtThumbText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_chip_dark"
+            android:hint="Thumbnail Text (max 4 words)"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#777777"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/txtNoRepeatWarn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btnPackagingGemini"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#262626"
+            android:text="Generate No-Repeat Packaging (AI)"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSaveProject"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+            android:backgroundTint="#FF0033"
+            android:text="Save Progress"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMarkPublished"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#1B8E3E"
+            android:text="Mark as Published (Ship It!)"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnDeleteProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Delete Project"
+            android:textColor="#FF5252"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

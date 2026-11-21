@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_card"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chip_red"
+        android:paddingStart="10dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="4dp"
+        android:text="MADE BY STUDIO MOGLI"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="YT Gemini v1.0.0"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="✓ Verified Clean  •  100% Malware-Free"
+        android:textColor="#4CAF50"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Know someone who needs a website or custom software? Earn 10% on every closed project."
+        android:textColor="#CCCCCC"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btnReferAndEarn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF0033"
+        android:text="Refer &amp; Earn 10%"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReadTrustGuarantee"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#1F2A22"
+        android:text="Privacy &amp; Security Guarantee"
+        android:textAllCaps="false"
+        android:textColor="#81C784"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVisitStudioMogli"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#212121"
+        android:text="Visit studiomogli.com"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/btnCloseCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Close"
+        android:textColor="#888888"
+        android:textSize="12sp" />
+</LinearLayout>

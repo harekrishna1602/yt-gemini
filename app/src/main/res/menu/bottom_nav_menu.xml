@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_radar"
+        android:icon="@drawable/ic_nav_radar"
+        android:title="Radar" />
+    <item
+        android:id="@+id/nav_workbench"
+        android:icon="@drawable/ic_nav_workbench"
+        android:title="Workbench" />
+    <item
+        android:id="@+id/nav_gemini"
+        android:icon="@drawable/ic_nav_gemini"
+        android:title="Gemini" />
+    <item
+        android:id="@+id/nav_assets"
+        android:icon="@drawable/ic_nav_assets"
+        android:title="Assets" />
+    <item
+        android:id="@+id/nav_studio"
+        android:icon="@drawable/ic_nav_studio"
+        android:title="Studio" />
+</menu>
